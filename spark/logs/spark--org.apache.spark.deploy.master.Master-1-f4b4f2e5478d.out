@@ -1,0 +1,38 @@
+Spark Command: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /opt/spark-2.3.4-bin-hadoop2.7/conf/:/opt/spark-2.3.4-bin-hadoop2.7/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host f4b4f2e5478d --port 7077 --webui-port 8080
+========================================
+2021-06-06 03:46:01 INFO  Master:2612 - Started daemon with process name: 2663@f4b4f2e5478d
+2021-06-06 03:46:01 INFO  SignalUtils:54 - Registered signal handler for TERM
+2021-06-06 03:46:01 INFO  SignalUtils:54 - Registered signal handler for HUP
+2021-06-06 03:46:01 INFO  SignalUtils:54 - Registered signal handler for INT
+2021-06-06 03:46:02 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2021-06-06 03:46:02 INFO  SecurityManager:54 - Changing view acls to: root
+2021-06-06 03:46:02 INFO  SecurityManager:54 - Changing modify acls to: root
+2021-06-06 03:46:02 INFO  SecurityManager:54 - Changing view acls groups to: 
+2021-06-06 03:46:02 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2021-06-06 03:46:02 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2021-06-06 03:46:03 INFO  Utils:54 - Successfully started service 'sparkMaster' on port 7077.
+2021-06-06 03:46:03 INFO  Master:54 - Starting Spark master at spark://f4b4f2e5478d:7077
+2021-06-06 03:46:03 INFO  Master:54 - Running Spark version 2.3.4
+2021-06-06 03:46:03 INFO  log:192 - Logging initialized @2893ms
+2021-06-06 03:46:03 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2021-06-06 03:46:03 INFO  Server:419 - Started @3010ms
+2021-06-06 03:46:03 INFO  AbstractConnector:278 - Started ServerConnector@4283a2a4{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2021-06-06 03:46:03 INFO  Utils:54 - Successfully started service 'MasterUI' on port 8080.
+2021-06-06 03:46:03 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54437853{/app,null,AVAILABLE,@Spark}
+2021-06-06 03:46:03 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@57c1d3ea{/app/json,null,AVAILABLE,@Spark}
+2021-06-06 03:46:03 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4bf12aa6{/,null,AVAILABLE,@Spark}
+2021-06-06 03:46:03 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@81acba1{/json,null,AVAILABLE,@Spark}
+2021-06-06 03:46:03 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@511d17cb{/static,null,AVAILABLE,@Spark}
+2021-06-06 03:46:03 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27e78435{/app/kill,null,AVAILABLE,@Spark}
+2021-06-06 03:46:03 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5892ed86{/driver/kill,null,AVAILABLE,@Spark}
+2021-06-06 03:46:03 INFO  MasterWebUI:54 - Bound MasterWebUI to 0.0.0.0, and started at http://f4b4f2e5478d:8080
+2021-06-06 03:46:03 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2021-06-06 03:46:03 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7cc051ef{/,null,AVAILABLE}
+2021-06-06 03:46:03 INFO  AbstractConnector:278 - Started ServerConnector@8065d7d{HTTP/1.1,[http/1.1]}{f4b4f2e5478d:6066}
+2021-06-06 03:46:03 INFO  Server:419 - Started @3265ms
+2021-06-06 03:46:03 INFO  Utils:54 - Successfully started service on port 6066.
+2021-06-06 03:46:03 INFO  StandaloneRestServer:54 - Started REST server for submitting applications on port 6066
+2021-06-06 03:46:03 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2e9d8930{/metrics/master/json,null,AVAILABLE,@Spark}
+2021-06-06 03:46:03 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1e8be9bb{/metrics/applications/json,null,AVAILABLE,@Spark}
+2021-06-06 03:46:04 INFO  Master:54 - I have been elected leader! New state: ALIVE
+2021-06-06 03:46:52 INFO  Master:54 - Registering worker 172.18.0.2:37593 with 2 cores, 6.3 GB RAM
